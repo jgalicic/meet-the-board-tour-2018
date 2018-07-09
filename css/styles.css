@@ -1,3 +1,4 @@
+
 body { 
   background: url('../img/annie-spratt-109237-blur.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -43,6 +44,23 @@ h2 {
 	font-size: 1.3em;
 }
 
+.map-container {
+	margin: 0 auto;
+
+}
+
+.map-container img {
+	max-width: 100%;
+	margin: 0 auto;
+	outline: 3px solid #DDC;
+}
+
+.center-image {
+	margin: 0 auto;
+	margin-bottom: -5px;
+	
+	max-width: 640px;
+}
 
 .year {
 	position: relative;
@@ -108,15 +126,6 @@ a:hover {
 .big {
 	font-family: 'verdana', sans-serif;
 	font-size: 1.5em;
-}
-
-.btn-container {
-	margin: 0 auto;
-	width: 80%;
-	max-width: 800px;
-	height: 280px;
-	border: 4px solid #DDDDCC;
-	border-radius: 3px;
 }
 
 .garden-2 {
